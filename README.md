@@ -42,25 +42,30 @@
 12. Сделайте push всех изменений в новую ветку репозитория.
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
 
-![t8](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t8.png)
+![izm1](https://github.com/user-attachments/assets/3278fa0b-9040-44ce-af42-4ed3821edad3)
+
+![izm2](https://github.com/user-attachments/assets/9ed71b6d-c695-4620-9f75-5c32c2dcfcd4)
+
+![izm3](https://github.com/user-attachments/assets/6555cb07-353f-4f2d-a843-ceac3fac9d2d)
 
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
-
-![t9](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t9.png)
 
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
 
-![t10](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t10.png)
+![izm5](https://github.com/user-attachments/assets/d9ec4cde-6796-4a0a-b339-0aa9c8e0fb73)
+
+![git artifact](https://github.com/user-attachments/assets/0bbcaaa3-a0bc-45be-aa2e-a5abe46b7c73)
 
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
 
-![t11](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t11.png)
+![git](https://github.com/user-attachments/assets/d4142594-420c-4eb3-9d2c-76adfdbd89f1)
+
 
 19. В ответе пришлите ссылку на репозиторий.
 
-[.teamsity](https://github.com/smabramov/example-teamcity.git)
+[.teamsity](https://github.com/Makarov-Denis/example-teamcity.git)
 
 ---
 
