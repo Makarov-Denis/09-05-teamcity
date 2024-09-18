@@ -65,7 +65,7 @@
 
 19. В ответе пришлите ссылку на репозиторий.
 
-[.teamsity](https://github.com/Makarov-Denis/example-teamcity.git)
+[.teamsity]https://github.com/Makarov-Denis/example-teamcity.git
 
 ---
 
