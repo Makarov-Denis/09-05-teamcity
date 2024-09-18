@@ -19,24 +19,22 @@
 
 ![teamcity1](https://github.com/user-attachments/assets/0b705680-fcec-4e3d-8ab9-676dd1688a92)
 
-![t3](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t3.png)
+![teamcity2](https://github.com/user-attachments/assets/4f2ea4a4-c890-4278-999d-4e25003c145f)
 
-![t4](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t4.png)
+![build1](https://github.com/user-attachments/assets/5939f41d-ebd2-4df1-a37d-18d3a15277a6)
 
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
 
-![t5](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t5.png)
+![nexus1](https://github.com/user-attachments/assets/f538a05d-064f-43bc-8c42-5adcc575eb34)
 
-![t6](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t6.png)
 
 8. Мигрируйте `build configuration` в репозиторий.
 
-![t7](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t7.png)
 
-Ссылка на [.teamsity](https://github.com/smabramov/example-teamcity.git)
+Ссылка на [.teamsity]https://github.com/Makarov-Denis/example-teamcity.git
 
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
