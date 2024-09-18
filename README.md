@@ -17,7 +17,7 @@
 2. Сделайте autodetect конфигурации.
 3. Сохраните необходимые шаги, запустите первую сборку master.
 
-![t2](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t2.png)
+![teamcity1](https://github.com/user-attachments/assets/0b705680-fcec-4e3d-8ab9-676dd1688a92)
 
 ![t3](https://github.com/smabramov/09-ci-05-teamcity/blob/7beac47e8acc62c79e912f186c77bf3f0ec53103/jpg/t3.png)
 
